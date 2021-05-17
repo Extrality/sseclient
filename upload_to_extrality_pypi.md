@@ -1,6 +1,6 @@
 # Upload to extrality pypi
 
-The following command will do that for you.
+The following commands will do that for you.
 `twine` doesn't read `.netrc` and will ask your username/password.
 
 ```sh
