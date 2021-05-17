@@ -4,8 +4,8 @@ The following commands will do that for you.
 `twine` doesn't read `.netrc` and will ask your username/password.
 
 ```sh
-python setup.py sdist
-pip install twine
+pip install twine wheel
+python setup.py sdist bdist_wheel
 twine upload \
 	--skip-existing \
 	--repository-url https://pypi.extrality.ai/simple/ \
