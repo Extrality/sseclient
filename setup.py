@@ -21,7 +21,7 @@ setup(
     tests_require=['pytest', 'backports.unittest_mock'],
     setup_requires=[] + pytest_runner,
     description=(
-        'Python client library for reading Server Sent Event streams.'),
+        'Fork of btubbs/sseclient: Library for reading Server Sent Event streams.'),
     long_description=open('README.rst').read(),
     url='https://github.com/btubbs/sseclient',
     classifiers=[
