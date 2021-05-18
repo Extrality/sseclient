@@ -13,7 +13,7 @@ pytest_runner = ['pytest_runner>=2.1'] if needs_pytest else []
 
 setup(
     name='sseclient',
-    version='0.0.27',
+    version='0.0.27.2',
     author='Brent Tubbs',
     author_email='brent.tubbs@gmail.com',
     py_modules=['sseclient'],
@@ -21,7 +21,7 @@ setup(
     tests_require=['pytest', 'backports.unittest_mock'],
     setup_requires=[] + pytest_runner,
     description=(
-        'Python client library for reading Server Sent Event streams.'),
+        'Fork of btubbs/sseclient: Library for reading Server Sent Event streams.'),
     long_description=open('README.rst').read(),
     url='https://github.com/btubbs/sseclient',
     classifiers=[
